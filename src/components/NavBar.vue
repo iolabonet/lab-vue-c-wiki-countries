@@ -1,19 +1,22 @@
 <template>
-  <div class="navBar"></div>
+  <nav class="navBar">
+    <h1>Wiki Countries</h1>
+  </nav>
 </template>
 
 <script>
 export default {
-    name: 'navBar',
-};
+    name: 'navBar'
+}
 </script>
 
 <style scoped>
-.navBar {
+.nav {
   background-color: blue;
-  color: antiquewhite;
+  padding: 30px;
 }
 h1 {
+  color: antiquewhite;  
   margin: 0 200px;
   margin-bottom: 100px;
 }
