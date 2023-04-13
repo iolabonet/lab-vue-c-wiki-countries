@@ -1,10 +1,14 @@
 <template>
+  <NavBar />
   <div class="app">
+    
 
   </div>
 </template>
 
-<script>
+<script setup>
+  import NavBar from './components/NavBar.vue';
+  
 
 </script>
 
