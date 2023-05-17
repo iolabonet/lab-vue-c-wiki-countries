@@ -1,15 +1,16 @@
+// src/router/index.js
 import { createRouter, createWebHistory } from "vue-router";
 
 const routes = [
   {
     path: "/",
     name: "list",
-    component: () => import("../components/CountriesList.vue"),
+    component: () => import("../views/CountriesList.vue"),
     children: [
       {
         path: "/list/:alpha3Code",
-        name: "list",
-        component: () => import("../components/CountryDetails.vue"),
+        name: "details",
+        component: () => import("../views/CountryDetails.vue"),
       },
     ],
   },

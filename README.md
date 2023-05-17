@@ -180,13 +180,13 @@ Once done creating the components, the structure of elements that your `App.vue`
 ```vue
 <template>
   <div class="app">
-    <NavBar />
+    <Navbar />
     <router-view />
   </div>
 </template>
 
 <script setup>
-import NavBar from "./components/NavBar.vue";
+import Navbar from "./components/Navbar.vue";
 </script>
 
 <style></style>
